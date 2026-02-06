@@ -1,0 +1,89 @@
+# PRA Rulebook - Capital Requirements (Simplified Sample)
+
+## Chapter 1: Own Funds
+
+### 1.1 Common Equity Tier 1 Capital
+
+Common Equity Tier 1 (CET1) capital consists of the following items:
+
+1.1.1 Capital instruments provided they meet all the following criteria:
+(a) The instruments are issued directly by the institution with the prior approval of the owners of the institution
+(b) The instruments are paid up and their purchase is not funded directly or indirectly by the institution
+(c) The instruments meet all the criteria for classification as equity under applicable accounting standards
+(d) The instruments are perpetual
+(e) The principal amount of the instruments may not be reduced or repaid except in liquidation
+
+1.1.2 Share premium accounts relating to instruments included in CET1 capital
+
+1.1.3 Retained earnings, including interim profits that have been verified by independent auditors
+
+1.1.4 Accumulated other comprehensive income and other disclosed reserves
+
+1.1.5 Other items approved by the PRA as CET1 capital
+
+### 1.2 Additional Tier 1 Capital
+
+Additional Tier 1 (AT1) capital consists of the following items:
+
+1.2.1 Capital instruments that meet all the following conditions:
+(a) The instruments are issued directly by the institution
+(b) The instruments are subordinated, perpetual, and fully paid up
+(c) The instruments are not secured or covered by a guarantee that enhances the seniority of the claim
+(d) The instruments include a provision for principal loss absorption through either conversion to CET1 or a write-down mechanism
+
+1.2.2 Share premium accounts relating to instruments included in AT1 capital
+
+### 1.3 Tier 2 Capital
+
+Tier 2 capital consists of the following items:
+
+1.3.1 Capital instruments and subordinated loans that meet all the following conditions:
+(a) The instruments are subordinated to depositors and general creditors
+(b) The instruments have an original maturity of at least five years
+(c) The instruments do not contain incentives to redeem
+
+1.3.2 Share premium accounts relating to instruments included in Tier 2 capital
+
+1.3.3 General credit risk adjustments (for institutions using the IRB approach)
+
+## Chapter 2: Deductions from Own Funds
+
+### 2.1 Deductions from CET1 Capital
+
+Institutions must deduct the following items from CET1 capital:
+
+2.1.1 Losses for the current financial year
+2.1.2 Intangible assets, including goodwill
+2.1.3 Deferred tax assets that rely on future profitability
+2.1.4 Negative amounts resulting from the calculation of expected loss amounts
+2.1.5 Direct, indirect and synthetic holdings by the institution of own CET1 instruments
+
+### 2.2 Deductions from AT1 Capital
+
+Institutions must deduct the following items from AT1 capital:
+
+2.2.1 Direct, indirect and synthetic holdings by the institution of own AT1 instruments
+2.2.2 Holdings of AT1 instruments of financial sector entities where the institution has a significant investment
+
+### 2.3 Deductions from Tier 2 Capital
+
+Institutions must deduct the following items from Tier 2 capital:
+
+2.3.1 Direct, indirect and synthetic holdings by the institution of own Tier 2 instruments
+2.3.2 Holdings of Tier 2 instruments of financial sector entities where the institution has a significant investment
+
+## Chapter 3: Calculation of Own Funds
+
+### 3.1 Total Own Funds Calculation
+
+Total own funds is calculated as:
+Total Own Funds = CET1 Capital + AT1 Capital + Tier 2 Capital
+
+Where each tier is calculated after applying the relevant deductions specified in Chapter 2.
+
+### 3.2 Minimum Capital Requirements
+
+Institutions must maintain:
+- CET1 capital ratio of at least 4.5% of total risk-weighted assets
+- Tier 1 capital ratio (CET1 + AT1) of at least 6% of total risk-weighted assets
+- Total capital ratio of at least 8% of total risk-weighted assets

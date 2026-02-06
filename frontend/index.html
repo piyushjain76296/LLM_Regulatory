@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulatory Reporting Assistant | COREP Automation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">🏛️</div>
+                    <div>
+                        <h1>Regulatory Reporting Assistant</h1>
+                        <p class="subtitle">LLM-Assisted COREP Automation for UK Banks</p>
+                    </div>
+                </div>
+                <div class="status-badge" id="statusBadge">
+                    <span class="status-dot"></span>
+                    <span>Ready</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Input Section -->
+            <section class="input-section card">
+                <h2>📝 Regulatory Query</h2>
+                <form id="queryForm">
+                    <div class="form-group">
+                        <label for="question">Question</label>
+                        <input 
+                            type="text" 
+                            id="question" 
+                            name="question" 
+                            placeholder="How should this scenario be reported in the COREP template?"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="scenario">Reporting Scenario</label>
+                        <textarea 
+                            id="scenario" 
+                            name="scenario" 
+                            rows="6"
+                            placeholder="Describe the capital instrument, exposure, or regulatory scenario in detail..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="template">COREP Template</label>
+                        <select id="template" name="template" required>
+                            <option value="C_01.00">C 01.00 - Own Funds</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="submitBtn">
+                        <span class="btn-text">Generate Report</span>
+                        <span class="btn-loader" style="display: none;">
+                            <span class="loader"></span>
+                            Processing...
+                        </span>
+                    </button>
+                </form>
+
+                <!-- Sample Scenarios -->
+                <div class="sample-scenarios">
+                    <h3>💡 Sample Scenarios</h3>
+                    <div class="scenario-buttons">
+                        <button class="scenario-btn" data-scenario="cet1">CET1 Capital</button>
+                        <button class="scenario-btn" data-scenario="at1">AT1 Instrument</button>
+                        <button class="scenario-btn" data-scenario="deduction">Deductions</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <!-- Populated Fields -->
+                <div class="card">
+                    <h2>📊 Populated COREP Fields</h2>
+                    <div id="populatedFields" class="populated-fields"></div>
+                </div>
+
+                <!-- Audit Trail -->
+                <div class="card">
+                    <h2>🔍 Audit Trail</h2>
+                    <div id="auditTrail" class="audit-trail"></div>
+                </div>
+
+                <!-- Validation Flags -->
+                <div class="card" id="validationCard" style="display: none;">
+                    <h2>⚠️ Validation Flags</h2>
+                    <div id="validationFlags" class="validation-flags"></div>
+                </div>
+
+                <!-- Retrieved Context -->
+                <div class="card">
+                    <h2>📚 Retrieved Regulatory Context</h2>
+                    <div id="retrievedContext" class="context-items"></div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built for AKOIN Assignment | Demonstrating RAG + LLM for Regulatory Compliance</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

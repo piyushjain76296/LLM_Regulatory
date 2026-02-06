@@ -1,0 +1,112 @@
+# COREP Reporting Instructions - Own Funds (C 01.00)
+
+## Template C 01.00 - Own Funds
+
+### Purpose
+This template collects information on the composition of own funds of institutions, broken down by Common Equity Tier 1 (CET1), Additional Tier 1 (AT1), and Tier 2 capital.
+
+### Reporting Frequency
+Quarterly
+
+### Template Structure
+
+#### Section 1: Common Equity Tier 1 (CET1) Capital - Instruments and Reserves
+
+**Row 010 - Capital instruments and the related share premium accounts**
+Report the amount of capital instruments eligible as CET1 capital and their related share premium accounts.
+Instruction: Include only instruments that meet all criteria specified in Article 28 of CRR.
+
+**Row 020 - Retained earnings**
+Report retained earnings including interim or year-end profits verified by persons responsible for the auditing of the accounts.
+Instruction: Include only verified profits. Exclude any foreseeable charges or dividends.
+
+**Row 030 - Accumulated other comprehensive income (and other reserves)**
+Report the amount of accumulated other comprehensive income and other disclosed reserves.
+Instruction: Include reserves required by national law, statutory reserves, and other disclosed reserves.
+
+**Row 040 - Funds for general banking risk**
+Report funds for general banking risk recognized in equity under applicable accounting standards.
+
+**Row 050 - Minority interests (amount allowed in consolidated CET1)**
+Report the amount of minority interests that can be included in consolidated CET1 capital.
+
+**Row 060 - Independently reviewed interim profits net of any foreseeable charge or dividend**
+Report interim profits that have been independently reviewed and are net of foreseeable charges.
+
+#### Section 2: Common Equity Tier 1 (CET1) Capital - Regulatory Adjustments
+
+**Row 070 - Intangible assets (net of related tax liability)**
+Report the value of intangible assets including goodwill, net of any associated deferred tax liability.
+Instruction: This is a DEDUCTION from CET1 capital. Report as a positive number.
+
+**Row 080 - Deferred tax assets that rely on future profitability**
+Report deferred tax assets that depend on future profitability excluding those arising from temporary differences.
+Instruction: This is a DEDUCTION from CET1 capital. Report as a positive number.
+
+**Row 090 - Negative amounts resulting from the calculation of expected loss amounts**
+Report any negative amounts resulting from expected loss calculations under the IRB approach.
+Instruction: This is a DEDUCTION from CET1 capital. Report as a positive number.
+
+**Row 100 - Direct and indirect holdings of own CET1 instruments**
+Report direct, indirect, and synthetic holdings of the institution's own CET1 instruments.
+Instruction: This is a DEDUCTION from CET1 capital. Report as a positive number.
+
+**Row 110 - Total regulatory adjustments to CET1**
+Sum of all regulatory adjustments (deductions) from CET1 capital.
+Calculation: Sum of rows 070 to 100.
+
+**Row 120 - Common Equity Tier 1 (CET1) capital**
+Total CET1 capital after regulatory adjustments.
+Calculation: (Sum of rows 010 to 060) - Row 110.
+
+#### Section 3: Additional Tier 1 (AT1) Capital
+
+**Row 130 - Capital instruments and the related share premium accounts**
+Report AT1 capital instruments and related share premium accounts.
+Instruction: Include only instruments meeting all criteria for AT1 classification.
+
+**Row 140 - Instruments issued by subsidiaries (amount allowed in consolidated AT1)**
+Report AT1 instruments issued by subsidiaries that qualify for inclusion in consolidated AT1 capital.
+
+**Row 150 - Total regulatory adjustments to AT1 capital**
+Report total deductions from AT1 capital including holdings of own AT1 instruments.
+
+**Row 160 - Additional Tier 1 (AT1) capital**
+Total AT1 capital after regulatory adjustments.
+Calculation: (Row 130 + Row 140) - Row 150.
+
+**Row 170 - Tier 1 capital (T1 = CET1 + AT1)**
+Total Tier 1 capital.
+Calculation: Row 120 + Row 160.
+
+#### Section 4: Tier 2 (T2) Capital
+
+**Row 180 - Capital instruments and the related share premium accounts**
+Report Tier 2 capital instruments and subordinated loans with related share premium.
+Instruction: Include only instruments meeting Tier 2 criteria with minimum 5-year maturity.
+
+**Row 190 - Instruments issued by subsidiaries (amount allowed in consolidated T2)**
+Report Tier 2 instruments issued by subsidiaries qualifying for consolidated Tier 2 capital.
+
+**Row 200 - Credit risk adjustments**
+Report general credit risk adjustments for institutions using the IRB approach.
+Instruction: Limited to 1.25% of risk-weighted exposure amounts.
+
+**Row 210 - Total regulatory adjustments to T2 capital**
+Report total deductions from Tier 2 capital.
+
+**Row 220 - Tier 2 (T2) capital**
+Total Tier 2 capital after regulatory adjustments.
+Calculation: (Row 180 + Row 190 + Row 200) - Row 210.
+
+**Row 230 - Total capital (TC = T1 + T2)**
+Total own funds.
+Calculation: Row 170 + Row 220.
+
+### Validation Rules
+
+1. Row 120 (CET1) must be positive
+2. Row 170 (Tier 1) must be >= Row 120 (CET1)
+3. Row 230 (Total Capital) must be >= Row 170 (Tier 1)
+4. All deduction rows (070-100, 150, 210) must be reported as positive numbers
+5. Interim profits (Row 060) require independent verification
