@@ -9,22 +9,22 @@
 
 An AI-powered prototype demonstrating how Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) can transform regulatory reporting for UK banks preparing PRA COREP returns.
 
-> **🎯 Demo Mode Enabled:** This system works without OpenAI API credits using intelligent scenario analysis. For production use with real LLM, add OpenAI credits and set `demo_mode=False` in `backend/config.py`.
+> **Demo Mode Enabled:** This system works without OpenAI API credits using intelligent scenario analysis. For production use with real LLM, add OpenAI credits and set `demo_mode=False` in `backend/config.py`.
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This prototype solves a critical challenge in banking regulation: converting complex regulatory requirements into structured, auditable COREP reports. The system:
 
-✅ **Converts natural language questions** into structured COREP-aligned outputs  
-✅ **Provides full regulatory traceability** with audit trails  
-✅ **Prevents hallucination** through retrieval-augmented generation  
-✅ **Validates outputs** against regulatory rules  
+ **Converts natural language questions** into structured COREP-aligned outputs  
+ **Provides full regulatory traceability** with audit trails  
+ **Prevents hallucination** through retrieval-augmented generation  
+ **Validates outputs** against regulatory rules  
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### End-to-End Flow
 
@@ -66,7 +66,7 @@ User Query → RAG Retrieval → LLM Reasoning → Validation → Structured Out
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -118,7 +118,7 @@ User Query → RAG Retrieval → LLM Reasoning → Validation → Structured Out
 
 ---
 
-## 💡 Usage
+##  Usage
 
 ### Sample Scenarios
 
@@ -147,7 +147,7 @@ The system provides:
 
 ---
 
-## 📊 Success Criteria Mapping
+## Success Criteria Mapping
 
 | Requirement | Implementation |
 |------------|----------------|
@@ -200,7 +200,7 @@ The system provides:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Akoin_company_assignment/
@@ -228,7 +228,7 @@ Akoin_company_assignment/
 
 ---
 
-## 🎓 For AKOIN Evaluation
+## For AKOIN Evaluation
 
 ### What This Demonstrates
 
@@ -259,14 +259,14 @@ Akoin_company_assignment/
 
 ### Key Differentiators
 
-✨ **Audit Trail** - Every field maps to specific regulatory paragraph  
-✨ **RAG-Based** - No hallucinated rules, only retrieved context  
-✨ **Validation** - Automated consistency checks  
-✨ **Production-Ready** - Proper error handling, logging, API design  
+ **Audit Trail** - Every field maps to specific regulatory paragraph  
+ **RAG-Based** - No hallucinated rules, only retrieved context  
+ **Validation** - Automated consistency checks  
+ **Production-Ready** - Proper error handling, logging, API design  
 
 ---
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### `GET /api/health`
 Health check and document count
@@ -300,7 +300,7 @@ Process regulatory query
 
 ---
 
-## 📝 Notes
+##  Notes
 
 ### Scope Limitations
 
@@ -320,18 +320,18 @@ For a real deployment, you would need:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is a prototype for assignment evaluation. For questions or improvements, contact the developer.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Built with ❤️ for AKOIN Assignment**
+**Built with  for AKOIN Assignment**
 
 *Demonstrating the future of regulatory compliance through AI*
