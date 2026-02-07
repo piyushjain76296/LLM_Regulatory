@@ -160,7 +160,7 @@ The system provides:
 
 ---
 
-## 🔍 Technical Details
+## Technical Details
 
 ### RAG Pipeline
 
